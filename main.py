@@ -6,7 +6,9 @@ python  main.py \
         --dataset IMDB \
         --split test \
         --text_column text \
-        --label_column label 
+        --label_column label \
+        --process_guided_replication  \
+        --process_general_replication
 
 ArgumentParser：用于解析命令行参数。
 Guided 和 General：这两个类包含用于生成指导性复制和通用复制任务的提示模板。
